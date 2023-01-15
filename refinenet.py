@@ -10,7 +10,6 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 from basenet.vgg16_bn import init_weights
 
-
 class RefineNet(nn.Module):
     def __init__(self):
         super(RefineNet, self).__init__()
