@@ -24,7 +24,7 @@ class double_conv(nn.Module):
     def forward(self, x):
         x = self.conv(x)
         return x
-
+    
 class CRAFT(nn.Module):
     def __init__(self, pretrained=False, freeze=False):
         super(CRAFT, self).__init__()
